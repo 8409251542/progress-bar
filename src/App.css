@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  
+}
+.progress{
+  width: 70%;
+  height: 5%;
+  border: solid black 0.5px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 0, 0, 0.445); */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;*/
+  overflow: hidden; 
+}
+.progress span{
+  position: absolute;
+  left:50%;
+  top: 50%;
+  font-weight: 500;
+}
+.green{
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(16, 240, 165);
+}
